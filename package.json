@@ -13,9 +13,7 @@
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    
-    
-    "deploy": "npm run build && npx push-dir --dir=dist --branch=gh-pages --message Deploy: $(date)"
+    "deploy": "npm run build && npx push-dir --dir=dist --branch=gh-pages --message --cleanup"
   },
   "dependencies": {
     "vue": "^3.5.13",
