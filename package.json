@@ -15,7 +15,7 @@
     "format": "prettier --write src/",
     
     
-    "deploy": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "npm run build && npx push-dir --dir=dist --branch=gh-pages --message Deploy: $(date)"
   },
   "dependencies": {
     "vue": "^3.5.13",
