@@ -6,7 +6,6 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h1>He borrado los mensajes de APP y ahora los estoy poniendo aquí para ver cómo es el proceso para que se vea la web</h1>
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
